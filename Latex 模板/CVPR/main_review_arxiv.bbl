@@ -1,0 +1,290 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{andreas2016learning}
+J.~Andreas, M.~Rohrbach, T.~Darrell, and D.~Klein.
+\newblock Learning to compose neural networks for question answering.
+\newblock {\em arXiv preprint arXiv:1601.01705}, 2016.
+
+\bibitem{VQA}
+S.~Antol, A.~Agrawal, J.~Lu, M.~Mitchell, D.~Batra, C.~L. Zitnick, and
+  D.~Parikh.
+\newblock Vqa: Visual question answering.
+\newblock In {\em International Conference on Computer Vision (ICCV)}, 2015.
+
+\bibitem{cityscape}
+M.~Cordts, M.~Omran, S.~Ramos, T.~Rehfeld, M.~Enzweiler, R.~Benenson,
+  U.~Franke, S.~Roth, and B.~Schiele.
+\newblock The cityscapes dataset for semantic urban scene understanding.
+\newblock In {\em Proc. of the IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, 2016.
+
+\bibitem{long-term:recurrent}
+J.~Donahue, L.~Anne~Hendricks, S.~Guadarrama, M.~Rohrbach, S.~Venugopalan,
+  K.~Saenko, and T.~Darrell.
+\newblock Long-term recurrent convolutional networks for visual recognition and
+  description.
+\newblock In {\em CVPR}, 2015.
+
+\bibitem{caption:back}
+H.~Fang, S.~Gupta, F.~Iandola, R.~K. Srivastava, L.~Deng, P.~Doll{\'a}r,
+  J.~Gao, X.~He, M.~Mitchell, J.~C. Platt, et~al.
+\newblock From captions to visual concepts and back.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 1473--1482, 2015.
+
+\bibitem{frome2013devise}
+A.~Frome, G.~S. Corrado, J.~Shlens, S.~Bengio, J.~Dean, T.~Mikolov, et~al.
+\newblock Devise: A deep visual-semantic embedding model.
+\newblock In {\em Advances in neural information processing systems}, pages
+  2121--2129, 2013.
+
+\bibitem{multimodal:pooling}
+A.~Fukui, D.~H. Park, D.~Yang, A.~Rohrbach, T.~Darrell, and M.~Rohrbach.
+\newblock Multimodal compact bilinear pooling for visual question answering and
+  visual grounding.
+\newblock {\em arXiv preprint arXiv:1606.01847}, 2016.
+
+\bibitem{Logic:conversation}
+H.~Grice.
+\newblock Syntax and semantics: Speech acts.
+\newblock In P.~Cole and J.~Morgan, editors, {\em Syntax and Semantics: Speech
+  Actsn}, volume~3, page 41–58. Academic Press, 1975.
+
+\bibitem{rgbd:net:eccv14}
+S.~Gupta, R.~Girshick, P.~Arbel{\'a}ez, and J.~Malik.
+\newblock Learning rich features from rgb-d images for object detection and
+  segmentation.
+\newblock In {\em European Conference on Computer Vision}, 2014.
+
+\bibitem{he2017mask}
+K.~He, G.~Gkioxari, P.~Doll{\'a}r, and R.~Girshick.
+\newblock Mask r-cnn.
+\newblock {\em arXiv preprint arXiv:1703.06870}, 2017.
+
+\bibitem{lstm}
+S.~Hochreiter and J.~Schmidhuber.
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780, 1997.
+
+\bibitem{hu2016segmentation}
+R.~Hu, M.~Rohrbach, and T.~Darrell.
+\newblock Segmentation from natural language expressions.
+\newblock In {\em European Conference on Computer Vision}, pages 108--124.
+  Springer, 2016.
+
+\bibitem{hu2016natural}
+R.~Hu, H.~Xu, M.~Rohrbach, J.~Feng, K.~Saenko, and T.~Darrell.
+\newblock Natural language object retrieval.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 4555--4564, 2016.
+
+\bibitem{densecap:cvpr16}
+J.~Johnson, A.~Karpathy, and L.~Fei-Fei.
+\newblock Densecap: Fully convolutional localization networks for dense
+  captioning.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 4565--4574, 2016.
+
+\bibitem{deep:semantic:alignment:cvpr15}
+A.~Karpathy and L.~Fei-Fei.
+\newblock Deep visual-semantic alignments for generating image descriptions.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 3128--3137, 2015.
+
+\bibitem{karthikeyan2013and}
+S.~Karthikeyan, V.~Jagadeesh, R.~Shenoy, M.~Ecksteinz, and B.~Manjunath.
+\newblock From where and how to what we see.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 625--632, 2013.
+
+\bibitem{kazemzadeh2014referitgame}
+S.~Kazemzadeh, V.~Ordonez, M.~Matten, and T.~L. Berg.
+\newblock Referitgame: Referring to objects in photographs of natural scenes.
+
+\bibitem{kowalski2017deep}
+M.~Kowalski, J.~Naruniec, and T.~Trzcinski.
+\newblock Deep alignment network: A convolutional neural network for robust
+  face alignment.
+\newblock {\em arXiv preprint arXiv:1706.01789}, 2017.
+
+\bibitem{krafka2016eye}
+K.~Krafka, A.~Khosla, P.~Kellnhofer, H.~Kannan, S.~Bhandarkar, W.~Matusik, and
+  A.~Torralba.
+\newblock Eye tracking for everyone.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 2176--2184, 2016.
+
+\bibitem{kroeger2016fast}
+T.~Kroeger, R.~Timofte, D.~Dai, and L.~Van~Gool.
+\newblock Fast optical flow using dense inverse search.
+\newblock In {\em European Conference on Computer Vision}, pages 471--488.
+  Springer, 2016.
+
+\bibitem{li2016tgif}
+Y.~Li, Y.~Song, L.~Cao, J.~Tetreault, L.~Goldberg, A.~Jaimes, and J.~Luo.
+\newblock Tgif: A new dataset and benchmark on animated gif description.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 4641--4650, 2016.
+
+\bibitem{lin2014microsoft}
+T.-Y. Lin, M.~Maire, S.~Belongie, J.~Hays, P.~Perona, D.~Ramanan,
+  P.~Doll{\'a}r, and C.~L. Zitnick.
+\newblock Microsoft coco: Common objects in context.
+\newblock In {\em European Conference on Computer Vision}, pages 740--755.
+  Springer, 2014.
+
+\bibitem{ask:your:neurons}
+M.~Malinowski, M.~Rohrbach, and M.~Fritz.
+\newblock Ask your neurons: A neural-based approach to answering questions
+  about images.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 1--9, 2015.
+
+\bibitem{mao2016generation}
+J.~Mao, J.~Huang, A.~Toshev, O.~Camburu, A.~L. Yuille, and K.~Murphy.
+\newblock Generation and comprehension of unambiguous object descriptions.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 11--20, 2016.
+
+\bibitem{misu2013situated}
+T.~Misu, A.~Raux, I.~Lane, J.~Devassy, and R.~Gupta.
+\newblock Situated multi-modal dialog system in vehicles.
+\newblock In {\em Proceedings of the 6th workshop on Eye gaze in intelligent
+  human machine interaction: gaze in multimodal interaction}, pages 25--28.
+  ACM, 2013.
+
+\bibitem{Nagaraja2016}
+V.~K. Nagaraja, V.~I. Morariu, and L.~S. Davis.
+\newblock Modeling context between objects for referring expression
+  understanding.
+\newblock In {\em ECCV}, 2016.
+
+\bibitem{papadopoulos2014training}
+D.~P. Papadopoulos, A.~D. Clarke, F.~Keller, and V.~Ferrari.
+\newblock Training object class detectors from eye tracking data.
+\newblock In {\em European Conference on Computer Vision}, pages 361--376.
+  Springer, 2014.
+
+\bibitem{glove}
+J.~Pennington, R.~Socher, and C.~D. Manning.
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em Empirical Methods in Natural Language Processing (EMNLP)},
+  pages 1532--1543, 2014.
+
+\bibitem{phloc}
+B.~A. Plummer, A.~Mallya, C.~M. Cervantes, J.~Hockenmaier, and S.~Lazebnik.
+\newblock Phrase localization and visual relationship detection with
+  comprehensive linguistic cues.
+\newblock {\em CoRR}, abs/1611.06641, 2016.
+
+\bibitem{nips15_recasens}
+A.~Recasens$^*$, A.~Khosla$^*$, C.~Vondrick, and A.~Torralba.
+\newblock Where are they looking?
+\newblock In {\em Advances in Neural Information Processing Systems (NIPS)},
+  2015.
+\newblock $^*$ indicates equal contribution.
+
+\bibitem{exploraing:models:data:vqa}
+M.~Ren, R.~Kiros, and R.~Zemel.
+\newblock Exploring models and data for image question answering.
+\newblock In {\em Advances in Neural Information Processing Systems}, pages
+  2953--2961, 2015.
+
+\bibitem{renNIPS15fasterrcnn}
+S.~Ren, K.~He, R.~Girshick, and J.~Sun.
+\newblock Faster {R-CNN}: Towards real-time object detection with region
+  proposal networks.
+\newblock In {\em Advances in Neural Information Processing Systems ({NIPS})},
+  2015.
+
+\bibitem{rohrbach2016grounding}
+A.~Rohrbach, M.~Rohrbach, R.~Hu, T.~Darrell, and B.~Schiele.
+\newblock Grounding of textual phrases in images by reconstruction.
+\newblock In {\em European Conference on Computer Vision}, pages 817--834.
+  Springer, 2016.
+
+\bibitem{imagenet:2015}
+O.~Russakovsky, J.~Deng, H.~Su, J.~Krause, S.~Satheesh, S.~Ma, Z.~Huang,
+  A.~Karpathy, A.~Khosla, M.~Bernstein, et~al.
+\newblock Imagenet large scale visual recognition challenge.
+\newblock {\em International Journal of Computer Vision}, 115(3):211--252,
+  2015.
+
+\bibitem{Vadivel_2015_CVPR}
+K.~Shanmuga~Vadivel, T.~Ngo, M.~Eckstein, and B.~Manjunath.
+\newblock Eye tracking assisted extraction of attentionally important objects
+  from videos.
+\newblock In {\em The IEEE Conference on Computer Vision and Pattern
+  Recognition (CVPR)}, June 2015.
+
+\bibitem{two:stream:nips14}
+K.~Simonyan and A.~Zisserman.
+\newblock Two-stream convolutional networks for action recognition in videos.
+\newblock In {\em Advances in Neural Information Processing Systems}, 2014.
+
+\bibitem{vgg16}
+K.~Simonyan and A.~Zisserman.
+\newblock Very deep convolutional networks for large-scale image recognition.
+\newblock In {\em ICLR}, 2015.
+
+\bibitem{soliman2016towards}
+M.~Soliman, H.~R. Tavakoli, and J.~Laaksonen.
+\newblock Towards gaze-based video annotation.
+\newblock In {\em Image Processing Theory Tools and Applications (IPTA), 2016
+  6th International Conference on}, pages 1--5. IEEE, 2016.
+
+\bibitem{sugano2016seeing}
+Y.~Sugano and A.~Bulling.
+\newblock Seeing with humans: Gaze-assisted neural image captioning.
+\newblock {\em arXiv preprint arXiv:1608.05203}, 2016.
+
+\bibitem{valmadre2017end}
+J.~Valmadre, L.~Bertinetto, J.~F. Henriques, A.~Vedaldi, and P.~H. Torr.
+\newblock End-to-end representation learning for correlation filter based
+  tracking.
+\newblock {\em arXiv preprint arXiv:1704.06036}, 2017.
+
+\bibitem{vasudevan2017chi}
+A.~B. Vasudevan, D.~Dai, and L.~Van~Gool.
+\newblock Object referring in visual scene with spoken language.
+\newblock {\em arXiv preprint arXiv:1711.03800}, 2017.
+
+\bibitem{viola2001rapid}
+P.~Viola and M.~Jones.
+\newblock Rapid object detection using a boosted cascade of simple features.
+\newblock In {\em Computer Vision and Pattern Recognition, 2001. CVPR 2001.
+  Proceedings of the 2001 IEEE Computer Society Conference on}, volume~1, pages
+  I--I. IEEE, 2001.
+
+\bibitem{wang2016structured}
+M.~Wang, M.~Azab, N.~Kojima, R.~Mihalcea, and J.~Deng.
+\newblock Structured matching for phrase localization.
+\newblock In {\em European Conference on Computer Vision}, pages 696--711.
+  Springer, 2016.
+
+\bibitem{show:attend:tell}
+K.~Xu, J.~Ba, R.~Kiros, K.~Cho, A.~C. Courville, R.~Salakhutdinov, R.~S. Zemel,
+  and Y.~Bengio.
+\newblock Show, attend and tell: Neural image caption generation with visual
+  attention.
+\newblock In {\em ICML}, volume~14, pages 77--81, 2015.
+
+\bibitem{yu2016modeling}
+L.~Yu, P.~Poirson, S.~Yang, A.~C. Berg, and T.~L. Berg.
+\newblock Modeling context in referring expressions.
+\newblock In {\em European Conference on Computer Vision}, pages 69--85.
+  Springer, 2016.
+
+\bibitem{yun2013studying}
+K.~Yun, Y.~Peng, D.~Samaras, G.~J. Zelinsky, and T.~L. Berg.
+\newblock Studying relationships between human gaze, description, and computer
+  vision.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 739--746, 2013.
+
+\bibitem{ZitnickECCV14edgeBoxes}
+C.~L. Zitnick and P.~Doll\'ar.
+\newblock Edge boxes: Locating object proposals from edges.
+\newblock In {\em ECCV}, 2014.
+
+\end{thebibliography}
