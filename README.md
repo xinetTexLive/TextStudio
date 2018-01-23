@@ -15,3 +15,6 @@
 
 ## 资料库
 - [Wikibooks](https://www.wikibooks.org/)
+
+-------
+我收集了一些论文模板，见[这里](https://github.com/q735613050/TextStudio/tree/master/Latex%20模板)
