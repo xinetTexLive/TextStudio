@@ -1,0 +1,102 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{hinton2000learning}
+\citation{hinton2011transforming}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}How the vector inputs and outputs of a capsule are computed}{2}{section.2}}
+\newlabel{squash}{{1}{2}{How the vector inputs and outputs of a capsule are computed}{equation.2.1}{}}
+\citation{chang2015batch}
+\citation{chang2015batch}
+\newlabel{softmax}{{3}{3}{How the vector inputs and outputs of a capsule are computed}{equation.2.3}{}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Routing algorithm.\relax }}{3}{algorithm.1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{routingalg}{{1}{3}{Routing algorithm.\relax }{algorithm.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Margin loss for digit existence}{3}{section.3}}
+\newlabel{digit-loss}{{4}{3}{Margin loss for digit existence}{equation.3.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}CapsNet architecture}{3}{section.4}}
+\citation{abadi2016tensorflow}
+\citation{kingma2014adam}
+\citation{lecun1998mnist}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A simple CapsNet with 3 layers. This model gives comparable results to deep convolutional networks (such as \cite  {chang2015batch}). The length of the activity vector of each capsule in DigitCaps layer indicates presence of an instance of each class and is used to calculate the classification loss. ${\bf  W}_{ij}$ is a weight matrix between each ${\bf  u}_i, i \in (1, 32\times 6\times 6)$ in PrimaryCapsules and ${\bf  v}_j, j \in (1, 10)$. \relax }}{4}{figure.caption.2}}
+\newlabel{capsnetArch}{{1}{4}{A simple CapsNet with 3 layers. This model gives comparable results to deep convolutional networks (such as \cite {chang2015batch}). The length of the activity vector of each capsule in DigitCaps layer indicates presence of an instance of each class and is used to calculate the classification loss. ${\bf W}_{ij}$ is a weight matrix between each ${\bf u}_i, i \in (1, 32\times 6\times 6)$ in PrimaryCapsules and ${\bf v}_j, j \in (1, 10)$. \relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Decoder structure to reconstruct a digit from the DigitCaps layer representation. The euclidean distance between the image and the output of the Sigmoid layer is minimized during training. We use the true label as reconstruction target during training.\relax }}{4}{figure.caption.3}}
+\newlabel{reconsArch}{{2}{4}{Decoder structure to reconstruct a digit from the DigitCaps layer representation. The euclidean distance between the image and the output of the Sigmoid layer is minimized during training. We use the true label as reconstruction target during training.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Reconstruction as a regularization method}{4}{subsection.4.1}}
+\citation{wan2013regularization}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Sample MNIST test reconstructions of a CapsNet with 3 routing iterations. $(l,p,r)$ represents the label, the prediction and the reconstruction target respectively. The two rightmost columns show two reconstructions of a failure example and it explains how the model confuses a $5$ and a $3$ in this image. The other columns are from correct classifications and shows that model preserves many of the details while smoothing the noise.\relax }}{5}{table.caption.4}}
+\newlabel{sample-recons}{{3}{5}{Sample MNIST test reconstructions of a CapsNet with 3 routing iterations. $(l,p,r)$ represents the label, the prediction and the reconstruction target respectively. The two rightmost columns show two reconstructions of a failure example and it explains how the model confuses a $5$ and a $3$ in this image. The other columns are from correct classifications and shows that model preserves many of the details while smoothing the noise.\relax }{table.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces CapsNet classification test accuracy. The MNIST average and standard deviation results are reported from $3$ trials.\relax }}{5}{table.caption.5}}
+\newlabel{mnist-res}{{1}{5}{CapsNet classification test accuracy. The MNIST average and standard deviation results are reported from $3$ trials.\relax }{table.caption.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Capsules on MNIST}{5}{section.5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}What the individual dimensions of a capsule represent}{5}{subsection.5.1}}
+\citation{hinton2000learning}
+\citation{goodfellow2013multi}
+\citation{ba}
+\citation{greff2016tagger}
+\citation{ba}
+\citation{ba}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Dimension perturbations. Each row shows the reconstruction when one of the $16$ dimensions in the DigitCaps representation is tweaked by intervals of $0.05$ in the range $[-0.25, 0.25]$. \relax }}{6}{table.caption.6}}
+\newlabel{dim-recons}{{4}{6}{Dimension perturbations. Each row shows the reconstruction when one of the $16$ dimensions in the DigitCaps representation is tweaked by intervals of $0.05$ in the range $[-0.25, 0.25]$. \relax }{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Robustness to Affine Transformations}{6}{subsection.5.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Segmenting highly overlapping digits}{6}{section.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}MultiMNIST dataset}{6}{subsection.6.1}}
+\citation{kingma2014adam}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Sample reconstructions of a CapsNet with 3 routing iterations on MultiMNIST test dataset. The two reconstructed digits are overlayed in green and red as the lower image. The upper image shows the input image. L:$(l_1,l_2)$ represents the label for the two digits in the image and R:$(r_1, r_2)$ represents the two digits used for reconstruction. The two right most columns show two examples with wrong classification reconstructed from the label and from the prediction (P). In the $(2,8)$ example the model confuses $8$ with a $7$ and in $(4,9)$ it confuses $9$ with $0$. The other columns have correct classifications and show that the model accounts for all the pixels while being able to assign one pixel to two digits in extremely difficult scenarios (column $1-4$). Note that in dataset generation the pixel values are clipped at 1. The two columns with the (*) mark show reconstructions from a digit that is neither the label nor the prediction. These columns suggests that the model is not just finding the best fit for all the digits in the image including the ones that do not exist. Therefore in case of $(5,0)$ it cannot reconstruct a $7$ because it knows that there is a $5$ and $0$ that fit best and account for all the pixels. Also, in case of $(8,1)$ the loop of $8$ has not triggered $0$ because it is already accounted for by $8$. Therefore it will not assign one pixel to two digits if one of them does not have any other support.\relax }}{7}{table.caption.7}}
+\newlabel{multi}{{5}{7}{Sample reconstructions of a CapsNet with 3 routing iterations on MultiMNIST test dataset. The two reconstructed digits are overlayed in green and red as the lower image. The upper image shows the input image. L:$(l_1,l_2)$ represents the label for the two digits in the image and R:$(r_1, r_2)$ represents the two digits used for reconstruction. The two right most columns show two examples with wrong classification reconstructed from the label and from the prediction (P). In the $(2,8)$ example the model confuses $8$ with a $7$ and in $(4,9)$ it confuses $9$ with $0$. The other columns have correct classifications and show that the model accounts for all the pixels while being able to assign one pixel to two digits in extremely difficult scenarios (column $1-4$). Note that in dataset generation the pixel values are clipped at 1. The two columns with the (*) mark show reconstructions from a digit that is neither the label nor the prediction. These columns suggests that the model is not just finding the best fit for all the digits in the image including the ones that do not exist. Therefore in case of $(5,0)$ it cannot reconstruct a $7$ because it knows that there is a $5$ and $0$ that fit best and account for all the pixels. Also, in case of $(8,1)$ the loop of $8$ has not triggered $0$ because it is already accounted for by $8$. Therefore it will not assign one pixel to two digits if one of them does not have any other support.\relax }{table.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}MultiMNIST results}{7}{subsection.6.2}}
+\citation{zeiler2013stochastic}
+\citation{lecun2004learning}
+\citation{cirecsan2011high}
+\citation{netzer2011reading}
+\citation{hinton2011transforming}
+\citation{hinton2011transforming}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Other datasets}{8}{section.7}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Discussion and previous work}{8}{section.8}}
+\citation{crowding}
+\citation{binding}
+\citation{spatialtransformer}
+\citation{hinton1981parallel}
+\citation{olshausen1993neurobiological}
+\citation{hinton1981parallel}
+\bibstyle{plainnat}
+\bibdata{nips}
+\bibcite{abadi2016tensorflow}{{1}{2016}{{Abadi et~al.}}{{Abadi, Agarwal, Barham, Brevdo, Chen, Citro, Corrado, Davis, Dean, Devin, et~al.}}}
+\bibcite{ba}{{2}{2014}{{Ba et~al.}}{{Ba, Mnih, and Kavukcuoglu}}}
+\bibcite{chang2015batch}{{3}{2015}{{Chang and Chen}}{{}}}
+\bibcite{cirecsan2011high}{{4}{2011}{{Cire{\c {s}}an et~al.}}{{Cire{\c {s}}an, Meier, Masci, Gambardella, and Schmidhuber}}}
+\bibcite{goodfellow2013multi}{{5}{2013}{{Goodfellow et~al.}}{{Goodfellow, Bulatov, Ibarz, Arnoud, and Shet}}}
+\bibcite{greff2016tagger}{{6}{2016}{{Greff et~al.}}{{Greff, Rasmus, Berglund, Hao, Valpola, and Schmidhuber}}}
+\bibcite{binding}{{7}{1981{a}}{{Hinton}}{{}}}
+\bibcite{hinton1981parallel}{{8}{1981{b}}{{Hinton}}{{}}}
+\bibcite{hinton2000learning}{{9}{2000}{{Hinton et~al.}}{{Hinton, Ghahramani, and Teh}}}
+\bibcite{hinton2011transforming}{{10}{2011}{{Hinton et~al.}}{{Hinton, Krizhevsky, and Wang}}}
+\bibcite{spatialtransformer}{{11}{2015}{{Jaderberg et~al.}}{{Jaderberg, Simonyan, Zisserman, and Kavukcuoglu}}}
+\bibcite{kingma2014adam}{{12}{2014}{{Kingma and Ba}}{{}}}
+\bibcite{lecun1998mnist}{{13}{1998}{{LeCun et~al.}}{{LeCun, Cortes, and Burges}}}
+\bibcite{lecun2004learning}{{14}{2004}{{LeCun et~al.}}{{LeCun, Huang, and Bottou}}}
+\bibcite{netzer2011reading}{{15}{2011}{{Netzer et~al.}}{{Netzer, Wang, Coates, Bissacco, Wu, and Ng}}}
+\bibcite{olshausen1993neurobiological}{{16}{1993}{{Olshausen et~al.}}{{Olshausen, Anderson, and Van~Essen}}}
+\bibcite{crowding}{{17}{2004}{{Pelli et~al.}}{{Pelli, Palomares, and Majaj}}}
+\bibcite{wan2013regularization}{{18}{2013}{{Wan et~al.}}{{Wan, Zeiler, Zhang, LeCun, and Fergus}}}
+\bibcite{zeiler2013stochastic}{{19}{2013}{{Zeiler and Fergus}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {A}How many routing iterations to use?}{11}{appendix.A}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.1}{\ignorespaces Average change of each routing logit ($b_{ij}$) by each routing iteration. After 500 epochs of training on MNIST the average change is stabilized and as it shown in right figure it decreases almost linearly in log scale with more routing iterations.\relax }}{11}{figure.caption.9}}
+\newlabel{fig:conv}{{A.1}{11}{Average change of each routing logit ($b_{ij}$) by each routing iteration. After 500 epochs of training on MNIST the average change is stabilized and as it shown in right figure it decreases almost linearly in log scale with more routing iterations.\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {A.2}{\ignorespaces Traning loss of CapsuleNet on cifar10 dataset. The batch size at each training step is 128. The CapsuleNet with 3 iteration of routing optimizes the loss faster and converges to a lower loss at the end.\relax }}{11}{figure.caption.10}}
+\newlabel{fig:cifar}{{A.2}{11}{Traning loss of CapsuleNet on cifar10 dataset. The batch size at each training step is 128. The CapsuleNet with 3 iteration of routing optimizes the loss faster and converges to a lower loss at the end.\relax }{figure.caption.10}{}}

@@ -1,0 +1,134 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abadi et~al.(2016)Abadi, Agarwal, Barham, Brevdo, Chen, Citro,
+  Corrado, Davis, Dean, Devin, et~al.]{abadi2016tensorflow}
+Mart{\'\i}n Abadi, Ashish Agarwal, Paul Barham, Eugene Brevdo, Zhifeng Chen,
+  Craig Citro, Greg~S Corrado, Andy Davis, Jeffrey Dean, Matthieu Devin, et~al.
+\newblock Tensorflow: Large-scale machine learning on heterogeneous distributed
+  systems.
+\newblock \emph{arXiv preprint arXiv:1603.04467}, 2016.
+
+\bibitem[Ba et~al.(2014)Ba, Mnih, and Kavukcuoglu]{ba}
+Jimmy Ba, Volodymyr Mnih, and Koray Kavukcuoglu.
+\newblock Multiple object recognition with visual attention.
+\newblock \emph{arXiv preprint arXiv:1412.7755}, 2014.
+
+\bibitem[Chang and Chen(2015)]{chang2015batch}
+Jia-Ren Chang and Yong-Sheng Chen.
+\newblock Batch-normalized maxout network in network.
+\newblock \emph{arXiv preprint arXiv:1511.02583}, 2015.
+
+\bibitem[Cire{\c{s}}an et~al.(2011)Cire{\c{s}}an, Meier, Masci, Gambardella,
+  and Schmidhuber]{cirecsan2011high}
+Dan~C Cire{\c{s}}an, Ueli Meier, Jonathan Masci, Luca~M Gambardella, and
+  J{\"u}rgen Schmidhuber.
+\newblock High-performance neural networks for visual object classification.
+\newblock \emph{arXiv preprint arXiv:1102.0183}, 2011.
+
+\bibitem[Goodfellow et~al.(2013)Goodfellow, Bulatov, Ibarz, Arnoud, and
+  Shet]{goodfellow2013multi}
+Ian~J Goodfellow, Yaroslav Bulatov, Julian Ibarz, Sacha Arnoud, and Vinay Shet.
+\newblock Multi-digit number recognition from street view imagery using deep
+  convolutional neural networks.
+\newblock \emph{arXiv preprint arXiv:1312.6082}, 2013.
+
+\bibitem[Greff et~al.(2016)Greff, Rasmus, Berglund, Hao, Valpola, and
+  Schmidhuber]{greff2016tagger}
+Klaus Greff, Antti Rasmus, Mathias Berglund, Tele Hao, Harri Valpola, and
+  J{\"u}rgen Schmidhuber.
+\newblock Tagger: Deep unsupervised perceptual grouping.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  4484--4492, 2016.
+
+\bibitem[Hinton(1981{\natexlab{a}})]{binding}
+Geoffrey~E Hinton.
+\newblock Shape representation in parallel systems.
+\newblock In \emph{International Joint Conference on Artificial Intelligence
+  Vol 2}, 1981{\natexlab{a}}.
+
+\bibitem[Hinton(1981{\natexlab{b}})]{hinton1981parallel}
+Geoffrey~E Hinton.
+\newblock A parallel computation that assigns canonical object-based frames of
+  reference.
+\newblock In \emph{Proceedings of the 7th international joint conference on
+  Artificial intelligence-Volume 2}, pages 683--685. Morgan Kaufmann Publishers
+  Inc., 1981{\natexlab{b}}.
+
+\bibitem[Hinton et~al.(2000)Hinton, Ghahramani, and Teh]{hinton2000learning}
+Geoffrey~E Hinton, Zoubin Ghahramani, and Yee~Whye Teh.
+\newblock Learning to parse images.
+\newblock In \emph{Advances in neural information processing systems}, pages
+  463--469, 2000.
+
+\bibitem[Hinton et~al.(2011)Hinton, Krizhevsky, and
+  Wang]{hinton2011transforming}
+Geoffrey~E Hinton, Alex Krizhevsky, and Sida~D Wang.
+\newblock Transforming auto-encoders.
+\newblock In \emph{International Conference on Artificial Neural Networks},
+  pages 44--51. Springer, 2011.
+
+\bibitem[Jaderberg et~al.(2015)Jaderberg, Simonyan, Zisserman, and
+  Kavukcuoglu]{spatialtransformer}
+Max Jaderberg, Karen Simonyan, Andrew Zisserman, and Koray Kavukcuoglu.
+\newblock Spatial transformer networks.
+\newblock In \emph{Advances in Neural Information Processing Systems}, pages
+  2017--2025, 2015.
+
+\bibitem[Kingma and Ba(2014)]{kingma2014adam}
+Diederik Kingma and Jimmy Ba.
+\newblock Adam: A method for stochastic optimization.
+\newblock \emph{arXiv preprint arXiv:1412.6980}, 2014.
+
+\bibitem[LeCun et~al.(1998)LeCun, Cortes, and Burges]{lecun1998mnist}
+Yann LeCun, Corinna Cortes, and Christopher~JC Burges.
+\newblock The mnist database of handwritten digits, 1998.
+
+\bibitem[LeCun et~al.(2004)LeCun, Huang, and Bottou]{lecun2004learning}
+Yann LeCun, Fu~Jie Huang, and Leon Bottou.
+\newblock Learning methods for generic object recognition with invariance to
+  pose and lighting.
+\newblock In \emph{Computer Vision and Pattern Recognition, 2004. CVPR 2004.
+  Proceedings of the 2004 IEEE Computer Society Conference on}, volume~2, pages
+  II--104. IEEE, 2004.
+
+\bibitem[Netzer et~al.(2011)Netzer, Wang, Coates, Bissacco, Wu, and
+  Ng]{netzer2011reading}
+Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo~Wu, and Andrew~Y
+  Ng.
+\newblock Reading digits in natural images with unsupervised feature learning.
+\newblock In \emph{NIPS workshop on deep learning and unsupervised feature
+  learning}, volume 2011, page~5, 2011.
+
+\bibitem[Olshausen et~al.(1993)Olshausen, Anderson, and
+  Van~Essen]{olshausen1993neurobiological}
+Bruno~A Olshausen, Charles~H Anderson, and David~C Van~Essen.
+\newblock A neurobiological model of visual attention and invariant pattern
+  recognition based on dynamic routing of information.
+\newblock \emph{Journal of Neuroscience}, 13\penalty0 (11):\penalty0
+  4700--4719, 1993.
+
+\bibitem[Pelli et~al.(2004)Pelli, Palomares, and Majaj]{crowding}
+Denis~G Pelli, Melanie Palomares, and Najib~J Majaj.
+\newblock Crowding is unlike ordinary masking: Distinguishing feature
+  integration from detection.
+\newblock \emph{Journal of vision}, 4\penalty0 (12):\penalty0 12--12, 2004.
+
+\bibitem[Wan et~al.(2013)Wan, Zeiler, Zhang, LeCun, and
+  Fergus]{wan2013regularization}
+Li~Wan, Matthew~D Zeiler, Sixin Zhang, Yann LeCun, and Rob Fergus.
+\newblock Regularization of neural networks using dropconnect.
+\newblock In \emph{Proceedings of the 30th International Conference on Machine
+  Learning (ICML-13)}, pages 1058--1066, 2013.
+
+\bibitem[Zeiler and Fergus(2013)]{zeiler2013stochastic}
+Matthew~D Zeiler and Rob Fergus.
+\newblock Stochastic pooling for regularization of deep convolutional neural
+  networks.
+\newblock \emph{arXiv preprint arXiv:1301.3557}, 2013.
+
+\end{thebibliography}

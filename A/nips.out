@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{How the vector inputs and outputs of a capsule are computed}{}% 2
+\BOOKMARK [1][-]{section.3}{Margin loss for digit existence}{}% 3
+\BOOKMARK [1][-]{section.4}{CapsNet architecture}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Reconstruction as a regularization method}{section.4}% 5
+\BOOKMARK [1][-]{section.5}{Capsules on MNIST}{}% 6
+\BOOKMARK [2][-]{subsection.5.1}{What the individual dimensions of a capsule represent}{section.5}% 7
+\BOOKMARK [2][-]{subsection.5.2}{Robustness to Affine Transformations}{section.5}% 8
+\BOOKMARK [1][-]{section.6}{Segmenting highly overlapping digits}{}% 9
+\BOOKMARK [2][-]{subsection.6.1}{MultiMNIST dataset}{section.6}% 10
+\BOOKMARK [2][-]{subsection.6.2}{MultiMNIST results}{section.6}% 11
+\BOOKMARK [1][-]{section.7}{Other datasets}{}% 12
+\BOOKMARK [1][-]{section.8}{Discussion and previous work}{}% 13
+\BOOKMARK [1][-]{appendix.A}{How many routing iterations to use?}{}% 14
